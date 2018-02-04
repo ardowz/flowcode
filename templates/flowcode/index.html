@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/flowcode.css" type="text/css">
+
+    <title>flowcode</title>
+    <style type="text/css" media="screen">
+    body {
+        overflow: auto;
+    }
+    #editor {
+        margin: 0;
+        position: relative;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow-y: auto;
+        height: 80vh;
+    }
+  </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="navbar-brand" href="#">
+        <img src="images/logo.png" height="35" class="d-inline-block align-top" alt="">
+        <p>
+          See how your generated code looks!
+        </p>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col box">
+          <div class="row box-heading">
+            Enter Generated Code
+          </div>
+          <div class="row" id="editor" ></div>
+          <div class="row">
+            <button type="button" class="btn btn-info" id="generate">Poof!</button>
+          </div>
+        </div>
+        <div class="col box">
+          <div class="row box-heading">
+            Output
+          </div>
+          <div class="row output">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="scripts/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      var editor = ace.edit("editor");
+      editor.setTheme("ace/theme/sqlserver");
+      editor.session.setMode("ace/mode/php");
+      editor.setShowPrintMargin(false);
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
