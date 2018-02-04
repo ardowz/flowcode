@@ -199,6 +199,7 @@ class FlowCode {
 class $className {
 
 PHP;
+        $outputString = htmlspecialchars($outputString);
 
         $nodeSize = count($orderedNodeEntries) - 1;
         foreach ($orderedNodeEntries as $key => $orderedNodeEntry) {
@@ -340,14 +341,13 @@ $app->get('/standbyPost', function (Request $request, Response $response, array 
 
             $properlyOrderedEntries = $flowcode->runOrderFlowChart();
             $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
-            var_export($exportablCode);
-            exit();
         }
     }
 
-
     // Render index view
-    return $this->renderer->render($response, 'index.phtml', $args);
+    return $this->renderer->render($response, 'index.phtml', [
+        'code' => $exportablCode
+    ]);
 });
 
 $app->get('/clearPost', function (Request $request, Response $response, array $args) {
