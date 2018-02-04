@@ -277,7 +277,7 @@ PHP;
 \$flowCode->start();
 PHP;
 
-        echo $outputString;
+        return $outputString;
     }
 }
 
@@ -301,13 +301,17 @@ $app->post("/flowTranslate", function (Request $request, Response $response, arr
 //    var_dump($request->getParam("hello"));
     $diagramData = $request->getParsedBody();
 
+    $myfile = fopen("public/requests/req.json", "w") or die("Unable to open file!");
+    fwrite($myfile, json_encode($diagramData));
+    fclose($myfile);
 
-    $flowcode = new Flowcode();
-    $flowcode->parseDiagram($diagramData);
 
-    $properlyOrderedEntries = $flowcode->runOrderFlowChart();
-    $flowcode->generateCodeBlocks($properlyOrderedEntries);
-//    var_export($properlyOrderedEntries);
+//    $flowcode = new Flowcode();
+//    $flowcode->parseDiagram($diagramData);
+//
+//    $properlyOrderedEntries = $flowcode->runOrderFlowChart();
+//    $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
+//    var_export($exportablCode);
     exit();
 
 
@@ -315,10 +319,33 @@ $app->post("/flowTranslate", function (Request $request, Response $response, arr
 //    var_dump($diagramData);
 
 
-
-    exit();
     // Render index view
 //    return $this->renderer->render($response, 'index.phtml', $args);
+});
+
+$app->get('/standbyPost', function (Request $request, Response $response, array $args) {
+    // Sample log message
+    $this->logger->info("Slim-Skeleton '/' route");
+
+    $myfile = @fopen("public/requests/req.json", "r") or false;
+    if ($myfile) {
+        $contents = fread($myfile, filesize("public/requests/req.json"));
+        fclose($myfile);
+
+        $diagramData = json_decode($contents, true);
+
+        $flowcode = new Flowcode();
+        $flowcode->parseDiagram($diagramData);
+
+        $properlyOrderedEntries = $flowcode->runOrderFlowChart();
+        $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
+        var_export($exportablCode);
+        exit();
+    }
+
+
+    // Render index view
+    return $this->renderer->render($response, 'index.phtml', $args);
 });
 
 $app->get('/[{name}]', function (Request $request, Response $response, array $args) {
