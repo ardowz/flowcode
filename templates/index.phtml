@@ -8,6 +8,7 @@
     <style>
         /* DivTable.com */
         .divTable{
+            position relative;
             display: table;
             width: 70%;
         }
@@ -183,8 +184,19 @@
 </div>
 <br/>
 <div id="legend">
+    Step 1 <br/>
     Left: Begin <br/>
-    Right: Start
+    Right: Start <br/><br/>
+    Step 2 <br/>
+    Right: Generate value for A<br/>Down: Accept value for A <br/><br/>
+    Step 3 <br/>
+    Left: Accept value for B<br/>Down: Calculate Total <br/><br/>
+    step 4 <br/>
+    Left: Total == A / B<br/>Down: Total = A / B <br/><br/>
+    step 5 <br/>
+    Left: Print Total<br/>Up: Total == Total <br/><br/>
+    step 6 <br/>
+    Right: Terminate<br/>Up: End
 </div>
 <br/>
 <button class="steps">Input</button>
@@ -197,24 +209,21 @@
         var processStep = new Promise(function (resolve, reject) {
             if (currentStep == 1) {
                 $('.step0').removeClass('current');
-                $('.step1').addClass('current');
-                $('#legend').html('Right: Generate value for A<br/>Down: Accept value for A');
+                $('.step6').addClass('current');
+                $('#legend').html("Congrats! You've completed the maze!");
+                //$('.step1').addClass('current');
             } else if (currentStep == 2) {
                 $('.step1').removeClass('current');
                 $('.step2').addClass('current');
-                $('#legend').html('Left: Accept value for B<br/>Down: Calculate Total');
             } else if (currentStep == 3) {
                 $('.step2').removeClass('current');
                 $('.step3').addClass('current');
-                $('#legend').html('Left: Total == A / B<br/>Down: Total = A / B');
             } else if (currentStep == 4) {
                 $('.step3').removeClass('current');
                 $('.step4').addClass('current');
-                $('#legend').html('Left: Print Total<br/>Up: Total == Total');
             } else if (currentStep == 5) {
                 $('.step4').removeClass('current');
                 $('.step5').addClass('current');
-                $('#legend').html('Right: Terminate<br/>Up: End');
             } else if (currentStep == 6) {
                 $('.step5').removeClass('current');
                 $('.step6').addClass('current');
