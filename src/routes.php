@@ -20,7 +20,8 @@ $app->get("/flowTranslate", function (Request $request, Response $response, arra
 $app->post("/flowTranslate", function (Request $request, Response $response, array $args) {
     // Sample log message
 //    $this->logger->info("Slim-Skeleton '/' route");
-    var_dump($request->getParam("hello"));
+//    var_dump($request->getParam("hello"));
+    var_dump($request->getParsedBody());
     exit();
 
     // Render index view
