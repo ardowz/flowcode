@@ -350,6 +350,32 @@ $app->get('/standbyPost', function (Request $request, Response $response, array 
     ]);
 });
 
+$app->get('/standbyPost/1', function (Request $request, Response $response, array $args) {
+    // Sample log message
+    $this->logger->info("Slim-Skeleton '/' route");
+
+    $myfile = @fopen("public/requests/req.json", "r") or false;
+    if ($myfile) {
+        if (filesize("public/requests/req.json") > 0) {
+            $contents = fread($myfile, filesize("public/requests/req.json"));
+            fclose($myfile);
+
+            $diagramData = json_decode($contents, true);
+
+            $flowcode = new Flowcode();
+            $flowcode->parseDiagram($diagramData);
+
+            $properlyOrderedEntries = $flowcode->runOrderFlowChart();
+            $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
+        }
+    }
+
+    // Render index view
+    return $this->renderer->render($response, 'maze.phtml', [
+        'code' => $exportablCode
+    ]);
+});
+
 $app->get('/clearPost', function (Request $request, Response $response, array $args) {
     // Sample log message
     $this->logger->info("Slim-Skeleton '/' route");

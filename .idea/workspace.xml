@@ -2,397 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e97a17-eb41-47d4-a074-27a85a962ea8" name="Default" comment="Merge branch 'master' of https://github.com/ardowz/flowcode&#10;&#10;# Conflicts:&#10;#&#9;.idea/flowcode.iml&#10;#&#9;.idea/php.xml&#10;#&#9;templates/index.phtml">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/android-chrome-192x192.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/android-chrome-384x384.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/browserconfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/favicon-16x16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/favicon-32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/mstile-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/safari-pinned-tab.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon/site.webmanifest" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/requests/empty" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/requests/req.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/flowcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-beautify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-elastic_tabstops_lite.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-emmet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-error_marker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-keybinding_menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-language_tools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-linking.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-modelist.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-searchbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-settings_menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-spellcheck.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-split.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-static_highlight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-statusbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-textarea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-themelist.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/ext-whitespace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/keybinding-emacs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/keybinding-vim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-abap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-abc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-actionscript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ada.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-apache_conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-applescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-asciidoc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-assembly_x86.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-autohotkey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-batchfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-bro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-c9search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-c_cpp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-cirru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-clojure.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-cobol.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-coffee.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-coldfusion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-csharp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-csound_document.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-csound_orchestra.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-csound_score.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-csp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-css.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-curly.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-dart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-diff.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-django.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-dockerfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-dot.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-drools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-edifact.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-eiffel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ejs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-elixir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-elm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-erlang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-forth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-fortran.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ftl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-gcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-gherkin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-gitignore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-glsl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-gobstones.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-golang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-graphqlschema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-groovy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-haml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-handlebars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-haskell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-haskell_cabal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-haxe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-hjson.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-html_elixir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-html_ruby.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ini.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-io.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jade.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-java.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-javascript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-json.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jsoniq.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jsp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jssm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-jsx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-julia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-kotlin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-latex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-less.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-liquid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-lisp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-livescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-logiql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-lsl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-lua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-luapage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-lucene.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-makefile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-markdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-mask.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-matlab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-maze.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-mel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-mixal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-mushcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-mysql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-nix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-nsis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-objectivec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ocaml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-pascal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-perl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-pgsql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-php.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-pig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-plain_text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-powershell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-praat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-prolog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-properties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-protobuf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-python.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-r.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-razor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-rdoc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-red.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-redshift.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-rhtml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-rst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-ruby.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-rust.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sass.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-scad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-scala.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-scheme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-scss.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sjs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-smarty.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-snippets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-soy_template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-space.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sparql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-sqlserver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-stylus.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-svg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-swift.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-tcl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-tex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-textile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-toml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-tsx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-turtle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-twig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-typescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-vala.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-vbscript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-velocity.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-verilog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-vhdl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-wollok.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-xml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-xquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/mode-yaml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/abap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/abc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/actionscript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ada.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/apache_conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/applescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/asciidoc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/assembly_x86.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/autohotkey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/batchfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/bro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/c9search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/c_cpp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/cirru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/clojure.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/cobol.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/coffee.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/coldfusion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/csharp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/csound_document.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/csound_orchestra.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/csound_score.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/csp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/css.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/curly.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/dart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/diff.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/django.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/dockerfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/dot.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/drools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/edifact.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/eiffel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ejs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/elixir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/elm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/erlang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/forth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/fortran.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ftl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/gcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/gherkin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/gitignore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/glsl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/gobstones.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/golang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/graphqlschema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/groovy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/haml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/handlebars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/haskell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/haskell_cabal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/haxe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/hjson.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/html_elixir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/html_ruby.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ini.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/io.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jade.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/java.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/javascript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/json.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jsoniq.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jsp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jssm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/jsx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/julia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/kotlin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/latex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/less.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/liquid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/lisp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/livescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/logiql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/lsl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/lua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/luapage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/lucene.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/makefile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/markdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/mask.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/matlab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/maze.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/mel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/mixal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/mushcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/mysql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/nix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/nsis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/objectivec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ocaml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/pascal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/perl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/pgsql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/php.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/pig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/plain_text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/powershell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/praat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/prolog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/properties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/protobuf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/python.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/r.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/razor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/rdoc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/red.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/redshift.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/rhtml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/rst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/ruby.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/rust.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sass.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/scad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/scala.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/scheme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/scss.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sjs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/smarty.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/snippets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/soy_template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/space.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sparql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/sqlserver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/stylus.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/svg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/swift.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/tcl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/tex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/textile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/toml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/tsx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/turtle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/twig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/typescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/vala.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/vbscript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/velocity.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/verilog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/vhdl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/wollok.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/xml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/xquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/snippets/yaml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-ambiance.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-chaos.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-chrome.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-clouds.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-clouds_midnight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-cobalt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-crimson_editor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-dawn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-dracula.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-dreamweaver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-eclipse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-github.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-gob.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-gruvbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-idle_fingers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-iplastic.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-katzenmilch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-kr_theme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-kuroir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-merbivore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-merbivore_soft.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-mono_industrial.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-monokai.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-pastel_on_dark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-solarized_dark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-solarized_light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-sqlserver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-terminal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-textmate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-tomorrow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-tomorrow_night.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-tomorrow_night_blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-tomorrow_night_bright.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-tomorrow_night_eighties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-twilight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-vibrant_ink.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/theme-xcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-coffee.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-css.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-javascript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-json.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-lua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-php.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-xml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/scripts/src-min-noconflict/worker-xquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/flowcode.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/styles/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="$PROJECT_DIR$/.idea/flowcode.iml" afterPath="$PROJECT_DIR$/.idea/flowcode.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
       <change beforePath="$PROJECT_DIR$/templates/index.phtml" afterPath="$PROJECT_DIR$/templates/index.phtml" />
     </list>
@@ -408,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="259" column="88" lean-forward="false" selection-start-line="259" selection-start-column="88" selection-end-line="259" selection-end-column="88" />
+            <state relative-caret-position="432">
+              <caret line="257" column="43" lean-forward="false" selection-start-line="257" selection-start-column="43" selection-end-line="257" selection-end-column="43" />
               <folding>
                 <element signature="e#3360#3366#1#HTML" expanded="true" />
                 <element signature="e#3423#3429#1#HTML" expanded="true" />
@@ -512,6 +121,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="maze.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/maze.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="260" column="28" lean-forward="true" selection-start-line="260" selection-start-column="28" selection-end-line="260" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testImg.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/testImg.phtml">
           <provider selected="true" editor-type-id="text-editor">
@@ -532,15 +151,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="369" column="61" lean-forward="false" selection-start-line="369" selection-start-column="61" selection-end-line="369" selection-end-column="61" />
-              <folding>
-                <marker date="1517775355368" expanded="true" signature="11296:11392" ph="..." />
-                <marker date="1517775355368" expanded="true" signature="11296:11393" ph="..." />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="352" column="11" lean-forward="true" selection-start-line="352" selection-start-column="11" selection-end-line="352" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -551,6 +167,7 @@
     <findStrings>
       <find>current</find>
       <find>step</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -562,6 +179,7 @@
         <option value="$PROJECT_DIR$/templates/testImg.php" />
         <option value="$PROJECT_DIR$/templates/testImg.phtml" />
         <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/templates/maze.phtml" />
         <option value="$PROJECT_DIR$/templates/index.phtml" />
       </list>
     </option>
@@ -666,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13162000" />
+    <option name="totallyTimeSpent" value="13739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -735,10 +353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="369" column="61" lean-forward="false" selection-start-line="369" selection-start-column="61" selection-end-line="369" selection-end-column="61" />
-          <folding>
-            <marker date="1517775355368" expanded="true" signature="11296:11392" ph="..." />
-            <marker date="1517775355368" expanded="true" signature="11296:11393" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -975,34 +590,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding>
-            <marker date="1517775355368" expanded="true" signature="11296:11392" ph="..." />
-            <marker date="1517775355368" expanded="true" signature="11296:11393" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/testImg.php" />
-    <entry file="file://$PROJECT_DIR$/templates/testImg.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="259" column="88" lean-forward="false" selection-start-line="259" selection-start-column="88" selection-end-line="259" selection-end-column="88" />
+        <state relative-caret-position="432">
+          <caret line="257" column="43" lean-forward="false" selection-start-line="257" selection-start-column="43" selection-end-line="257" selection-end-column="43" />
           <folding>
             <element signature="e#3360#3366#1#HTML" expanded="true" />
             <element signature="e#3423#3429#1#HTML" expanded="true" />
@@ -1101,14 +697,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/maze.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="260" column="28" lean-forward="true" selection-start-line="260" selection-start-column="28" selection-end-line="260" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/testImg.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="369" column="61" lean-forward="false" selection-start-line="369" selection-start-column="61" selection-end-line="369" selection-end-column="61" />
-          <folding>
-            <marker date="1517775355368" expanded="true" signature="11296:11392" ph="..." />
-            <marker date="1517775355368" expanded="true" signature="11296:11393" ph="..." />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="352" column="11" lean-forward="true" selection-start-line="352" selection-start-column="11" selection-end-line="352" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
