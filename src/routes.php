@@ -28,6 +28,14 @@ $app->post("/flowTranslate", function (Request $request, Response $response, arr
     return $this->renderer->render($response, 'index.phtml', $args);
 });
 
+$app->get('/image', function($request, $response, $args) {
+    $data = $args['data'];
+    $image = @file_get_contents(__DIR__ . 'templates/1.png');
+
+    $response->write($image);
+    return $response->withHeader('Content-Type', FILEINFO_MIME_TYPE);
+});
+
 $app->get('/[{name}]', function (Request $request, Response $response, array $args) {
     // Sample log message
     $this->logger->info("Slim-Skeleton '/' route");

@@ -3,13 +3,191 @@
 <head>
     <meta charset="utf-8"/>
     <title>FlowCode</title>
-    <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <style>
+        /* DivTable.com */
+        .divTable{
+            display: table;
+            width: 70%;
+        }
+        .divTableRow {
+            display: table-row;
+        }
+
+        .divTableCell, .divTableHead {
+            display: table-cell;
+            padding: 10px 5px;
+        }
+
+        .divTableBody {
+            display: table-row-group;
+        }
+        .left {
+            border-left:1px solid #999999;
+        }
+        .right {
+            border-right:1px solid #999999;
+        }
+        .top {
+            border-top:1px solid #999999;
+        }
+        .btm {
+            border-bottom:1px solid #999999;
+        }
+        .material-icons {
+            display:none;
+        }
+        .current {
+            display: block;
+            color: dodgerblue;
+            height: 5px;
+            width: 5px;
+            padding: 0;
+        }
+
     </style>
 </head>
 <body>
-<button class="steps">start</button>
-<div class="display"></div>
+<div class="title">FlowCode</div>
+<br/>
+<div class="question">Draw a flowchart to divide a given number A by a given number B.</div>
+<br/>
+<!--<img src="1/png" id="display" />-->
+<div id="display">
+    <div class="divTable">
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableCell btm left top">&nbsp;</div>
+                <div class="divTableCell btm top">&nbsp;</div>
+                <div class="divTableCell btm top">&nbsp;</div>
+                <div class="divTableCell btm top">&nbsp;</div>
+                <div class="divTableCell btm"><i class="material-icons step0 current">face</i></div>
+                <div class="divTableCell btm top">&nbsp;</div>
+                <div class="divTableCell top"><i class="material-icons step1">face</i></div>
+                <div class="divTableCell top">&nbsp;</div>
+                <div class="divTableCell left btm top">&nbsp;</div>
+                <div class="divTableCell right top">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell"><i class="material-icons step3">face</i></div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell"><i class="material-icons step2">face</i></div>
+                <div class="divTableCell btm left">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell right btm">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell right left">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell ">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right btm">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm"><i class="material-icons step4">face</i></div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell right left">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell right left">&nbsp;</div>
+                <div class="divTableCell"><i class="material-icons step5">face</i></div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell right">&nbsp;</div>
+                <div class="divTableCell">&nbsp;</div>
+                <div class="divTableCell right btm">&nbsp;</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell left btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell right"><i class="material-icons step6">face</i></div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+                <div class="divTableCell btm">&nbsp;</div>
+                <div class="divTableCell btm right">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    <!-- DivTable.com -->
+</div>
+<br/>
+<div id="legend">
+    Left: Begin <br/>
+    Right: Start
+</div>
+<br/>
+<button class="steps">Input</button>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -18,19 +196,29 @@
     $('.steps').click(function () {
         var processStep = new Promise(function (resolve, reject) {
             if (currentStep == 1) {
-                $('.display').append('step1');
+                $('.step0').removeClass('current');
+                $('.step1').addClass('current');
+                $('#legend').html('Right: Generate value for A<br/>Down: Accept value for A');
             } else if (currentStep == 2) {
-                $('.display').append('step2');
+                $('.step1').removeClass('current');
+                $('.step2').addClass('current');
+                $('#legend').html('Left: Accept value for B<br/>Down: Calculate Total');
             } else if (currentStep == 3) {
-                $('.display').append('step3');
+                $('.step2').removeClass('current');
+                $('.step3').addClass('current');
+                $('#legend').html('Left: Total == A / B<br/>Down: Total = A / B');
             } else if (currentStep == 4) {
-                $('.display').append('step4');
+                $('.step3').removeClass('current');
+                $('.step4').addClass('current');
+                $('#legend').html('Left: Print Total<br/>Up: Total == Total');
             } else if (currentStep == 5) {
-                $('.display').append('step5');
+                $('.step4').removeClass('current');
+                $('.step5').addClass('current');
+                $('#legend').html('Right: Terminate<br/>Up: End');
             } else if (currentStep == 6) {
-                $('.display').append('step6');
-            } else if (currentStep == 7) {
-                $('.display').append('step7');
+                $('.step5').removeClass('current');
+                $('.step6').addClass('current');
+                $('#legend').html("Congrats! You've completed the maze!");
             }
             resolve();
         });
