@@ -329,20 +329,37 @@ $app->get('/standbyPost', function (Request $request, Response $response, array 
 
     $myfile = @fopen("public/requests/req.json", "r") or false;
     if ($myfile) {
-        $contents = fread($myfile, filesize("public/requests/req.json"));
-        fclose($myfile);
+        if (filesize("public/requests/req.json") > 0) {
+            $contents = fread($myfile, filesize("public/requests/req.json"));
+            fclose($myfile);
 
-        $diagramData = json_decode($contents, true);
+            $diagramData = json_decode($contents, true);
 
-        $flowcode = new Flowcode();
-        $flowcode->parseDiagram($diagramData);
+            $flowcode = new Flowcode();
+            $flowcode->parseDiagram($diagramData);
 
-        $properlyOrderedEntries = $flowcode->runOrderFlowChart();
-        $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
-        var_export($exportablCode);
-        exit();
+            $properlyOrderedEntries = $flowcode->runOrderFlowChart();
+            $exportablCode = $flowcode->generateCodeBlocks($properlyOrderedEntries);
+            var_export($exportablCode);
+            exit();
+        }
     }
 
+
+    // Render index view
+    return $this->renderer->render($response, 'index.phtml', $args);
+});
+
+$app->get('/clearPost', function (Request $request, Response $response, array $args) {
+    // Sample log message
+    $this->logger->info("Slim-Skeleton '/' route");
+
+    $myfile = @fopen("public/requests/req.json", "w") or false;
+    if ($myfile) {
+        //empty the file
+        fwrite($myfile, "");
+        fclose($myfile);
+    }
 
     // Render index view
     return $this->renderer->render($response, 'index.phtml', $args);
