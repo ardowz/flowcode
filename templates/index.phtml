@@ -4,23 +4,39 @@
     <meta charset="utf-8"/>
     <title>FlowCode</title>
     <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
     </style>
 </head>
 <body>
-<span class="step1">start</span>
+<button class="steps">start</button>
+<div class="display"></div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    $('.step1').click(function () {
-        var nextStep = new Promise(function (resolve, reject)
-        {
-            $('.step1').addClass('step2');
+    var currentStep = 1;
+
+    $('.steps').click(function () {
+        var processStep = new Promise(function (resolve, reject) {
+            if (currentStep == 1) {
+                $('.display').append('step1');
+            } else if (currentStep == 2) {
+                $('.display').append('step2');
+            } else if (currentStep == 3) {
+                $('.display').append('step3');
+            } else if (currentStep == 4) {
+                $('.display').append('step4');
+            } else if (currentStep == 5) {
+                $('.display').append('step5');
+            } else if (currentStep == 6) {
+                $('.display').append('step6');
+            } else if (currentStep == 7) {
+                $('.display').append('step7');
+            }
             resolve();
         });
-        nextStep.then(function () {
-            $('.step1').removeClass('step1')
-        });
+
+        // next step
+        processStep.then(function(){currentStep += 1});
     });
 </script>
 </html>
